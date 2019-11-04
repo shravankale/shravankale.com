@@ -1,7 +1,7 @@
 ## URL
 
 * University of Oregon: http://ix.cs.uoregon.edu/~shravank/
-* Personal Domain: https://www.shravankale.com/
+* Personal Domain: https://shravankale.com/
 
 ## About
 
