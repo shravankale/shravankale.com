@@ -10,6 +10,15 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ /*!
+ Colors
+ Tertiary: #E91E63 --Hot-Pink (.text-primary) ALT: #d63384(--bs-pink)
+ Background-color: #201047 --Violet; ALT: #21005D --Blue (--bs-body-bg)
+ background-color-txt: #EADDFF --Light Pink (body)
+ Navbar-bg-color: #6750A4 --Purple (.-bg-primary)
+ Navbar-color-txt: #FFFFFF --White (.mb-0)
+
+ */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -62,7 +71,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #201047;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -73,8 +82,10 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
+  /* --bs-link-color: #bd5d38; */
+  --bs-link-color: #E91E63;
+  /* --bs-link-hover-color: #974a2d; */
+  --bs-link-hover-color: #880E4F;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -7650,6 +7661,7 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  color: white;
 }
 
 .mb-1 {
@@ -8037,7 +8049,8 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  /* color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; */
+  color: #E91E63 !important;
 }
 
 .text-secondary {
@@ -8128,7 +8141,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  /*! background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
+  background-color: #6750A4 !important;
 }
 
 .bg-secondary {
@@ -10828,7 +10842,8 @@ textarea.form-control-lg {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  /*! color: #6c757d; */
+  color: #EADDFF;
 }
 
 @media (min-width: 992px) {
