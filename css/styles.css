@@ -13,11 +13,10 @@
  /*!
  Colors
  Tertiary: #E91E63 --Hot-Pink (.text-primary) ALT: #d63384(--bs-pink)
- Background-color: #201047 --Violet; ALT: #21005D --Blue (--bs-body-bg)
- background-color-txt: #EADDFF --Light Pink (body)
+ BG-color: #201047 --Violet; ALT: #21005D --Blue (--bs-body-bg)
+ BG-txt-color: #EADDFF --Light Pink (body)
  Navbar-bg-color: #6750A4 --Purple (.-bg-primary)
- Navbar-color-txt: #FFFFFF --White (.mb-0)
-
+ Navbar-txt-color: #FFFFFF --White (.mb-0)
  */
 :root {
   --bs-blue: #0d6efd;
@@ -129,7 +128,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  /*! color: #343a40; */
+  color: #fff;
 }
 
 h1, .h1 {
